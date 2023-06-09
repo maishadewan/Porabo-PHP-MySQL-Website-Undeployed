@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+   <html>
+    <head>
+     <title>Apply As A Student & Find Your Teacher in Your Area</title>
+     <link rel="stylesheet" type="text/css" href="style-sign.css">
+      </head>
+       <body id="body-color">
+        <div id="sapply">
+        
+        <fieldset style="width:30%"><legend>Apply As A Student & Find Your Teacher in Your Area</legend>
+        <form method="POST" action="student.php">
+        
+        NID <br><input type="password" name="NID" size="40"><br>
+
+        current_Institution <br><input type="text" name="iName" size="40"><br>
+        current_Class <br><input type="text" name="cC" size="40"><br>
+        Previous_Class_GPA <br><input type="text" name="pG" size="3" value="0.00"><br>
+        
+
+        <input id="button" type="submit" name="submit" value="Apply">
+           </form>
+            </fieldset> 
+            </div>
+             </body> 
+             </html>
